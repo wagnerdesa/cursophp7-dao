@@ -34,11 +34,21 @@ require_once("config.php");
 
 //echo $aluno;
 
+//$usuario=new Usuario();
+
+//$usuario->loadById(8);
+
+//$usuario->update("professor","12345");
+
+//echo $usuario;
+
+
 $usuario=new Usuario();
 
-$usuario->loadById(8);
+$usuario->loadById(6);
 
-$usuario->update("professor","12345");
+$usuario->delete();
+
 
 echo $usuario;
 
